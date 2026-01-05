@@ -33,8 +33,7 @@ Follow these steps to run the project locally:
 
 1.  **Depoyu Klonlayın / Clone the Repository:**
     ```bash
-    git clone [https://github.com/KULLANICI_ADIN/REPO_ISMI.git](https://github.com/KULLANICI_ADIN/REPO_ISMI.git)
-    cd REPO_ISMI
+    git clone https://github.com/hamicadeyolla/Lise-Tercih-Karar-Destek-Sistemi.git
     ```
 
 2.  **Gerekli Kütüphaneleri Yükleyin / Install Dependencies:**
