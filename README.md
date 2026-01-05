@@ -66,6 +66,6 @@ Follow these steps to run the project locally:
 ---
 
 ## 👥 Ekip / Team
-* **Ad Soyad:** Hamza [Soyadın]
+* **Ad Soyad:** Hamza Osman Erdoğan
 * **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
 * **Ders:** Nesne Tabanlı Programlama (BOZ213)
