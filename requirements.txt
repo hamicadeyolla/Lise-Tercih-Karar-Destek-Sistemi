@@ -1,0 +1,4 @@
+tkinter
+requests
+fpdf
+python-dotenv
