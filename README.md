@@ -71,11 +71,13 @@ Follow these steps to run the project locally:
 
 ---
 
-## 📄 Lisans ve Telif Hakkı
-Bu projede Tüm Haklar Saklıdır.
 
-Kaynak kodları yalnızca inceleme ve eğitim amaçlı erişime sahiptir. İzin alınmasından ticari amaçla kullanılması, kopyalanması veya dağıtılması yasaktır.
+## 📄 Lisans / License
 
-Copyright © 2026 Hamza Osman Erdoğan
+Bu proje **MIT Lisansı** altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakabilirsiniz.
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
-Not: Bu proje Ankara Üniversitesi BOZ213 dersi kapsamında geliştirilmiştir.
+**Copyright © 2026 Hamza Osman Erdoğan**
+
+---
+*Not: Bu proje Ankara Üniversitesi BOZ213 Nesne Tabanlı Programlama dersi kapsamında geliştirilmiştir.*
