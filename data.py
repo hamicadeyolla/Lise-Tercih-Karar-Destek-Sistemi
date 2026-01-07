@@ -1,14 +1,4 @@
 # data.py
-# -------------------------------------------------------------------------
-# GÜNCELLENMİŞ VERSİYON (78 OKUL - vFinal Precision Fix)
-# -------------------------------------------------------------------------
-# DÜZELTME NOTLARI:
-# 1. ASELSAN MTAL: Fabrika konumundan (Macunköy) alınıp, OKUL BİNASI 
-#    konumuna (Yeni Batı Mah. / Mesa Metro Yanı) taşındı.
-# 2. Cezeri Yeşil Teknoloji MTAL: Koordinat hassasiyeti artırıldı.
-# 3. Sincan Fatih MTAL: Tam kampüs merkezine çekildi.
-# 4. Tüm uzak ilçe okulları (Temelli, Polatlı, Haymana) teyitli.
-# -------------------------------------------------------------------------
 
 OKUL_VERITABANI = [
     # =============================================================================
@@ -178,7 +168,7 @@ OKUL_VERITABANI = [
     {'ad': 'Hasan Ali Yücel Sosyal Bilimler Lisesi', 'ilce': 'Çankaya', 'puan': 406.8408, 'yuzdelik': 18.93, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.8752, 'lon': 32.8060},
 
     # Şehit Ali İhsan Lezgi Anadolu Lisesi (Pursaklar)
-    {'ad': 'Şehit Ali İhsan Lezgi Anadolu Lisesi', 'ilce': 'Pursaklar', 'puan': 403.4916, 'yuzdelik': 20.19, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 40.0385, 'lon': 32.9033},
+    {'ad': 'Şehit Ali İhsan Lezgi Anadolu Lisesi', 'ilce': 'Pursaklar', 'puan': 403.4916, 'yuzdelik': 20.19, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 40.0420, 'lon': 32.9080},
 
     # Şehit Abdullah Tayyip Olçok Anadolu Lisesi (Yenimahalle)
     {'ad': 'Şehit Abdullah Tayyip Olçok Anadolu Lisesi', 'ilce': 'Yenimahalle', 'puan': 400.9926, 'yuzdelik': 21.14, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9665, 'lon': 32.7555},
@@ -190,13 +180,13 @@ OKUL_VERITABANI = [
     {'ad': 'Ali-Hasan Coşkun Mesleki ve Teknik Anadolu Lisesi', 'ilce': 'Çankaya', 'puan': 392.4277, 'yuzdelik': 24.58, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.8650, 'lon': 32.8250},
 
     # Kirami Refia Alemdaroğlu Anadolu Lisesi (Gölbaşı)
-    {'ad': 'Kirami Refia Alemdaroğlu Anadolu Lisesi', 'ilce': 'Gölbaşı', 'puan': 392.2758, 'yuzdelik': 24.64, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.7859, 'lon': 32.8087},
+    {'ad': 'Kirami Refia Alemdaroğlu Anadolu Lisesi', 'ilce': 'Çankaya', 'puan': 392.2758, 'yuzdelik': 24.64, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.8975, 'lon': 32.8335},
 
     # Elvankent Bilgi Anadolu Lisesi (Etimesgut / Elvankent)
     {'ad': 'Elvankent Bilgi Anadolu Lisesi', 'ilce': 'Etimesgut', 'puan': 391.1345, 'yuzdelik': 25.12, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9495, 'lon': 32.6840},
 
     # Şentepe Şehit Volkan Canöz Anadolu Lisesi (Yenimahalle / Şentepe)
-    {'ad': 'Şentepe Şehit Volkan Canöz Anadolu Lisesi', 'ilce': 'Yenimahalle', 'puan': 389.0205, 'yuzdelik': 26.01, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9950, 'lon': 32.7850},
+    {'ad': 'Şentepe Anadolu Lisesi', 'ilce': 'Yenimahalle', 'puan': 354.3406, 'yuzdelik': 42.45, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 40.0020, 'lon': 32.7810},
 
     # Pursaklar Anadolu Lisesi (Pursaklar)
     {'ad': 'Pursaklar Anadolu Lisesi', 'ilce': 'Pursaklar', 'puan': 386.7262, 'yuzdelik': 27.0, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 40.0385, 'lon': 32.9033},
@@ -205,7 +195,7 @@ OKUL_VERITABANI = [
     {'ad': 'Şehit Mehmet Karakaşoğlu MTAL', 'ilce': 'Pursaklar', 'puan': 386.0718, 'yuzdelik': 27.29, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 40.0385, 'lon': 32.9033},
 
     # Erdem Beyazıt Anadolu Lisesi (Gölbaşı)
-    {'ad': 'Erdem Beyazıt Anadolu Lisesi', 'ilce': 'Gölbaşı', 'puan': 383.0543, 'yuzdelik': 28.61, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.7859, 'lon': 32.8087},
+    {'ad': 'Erdem Beyazıt Anadolu Lisesi', 'ilce': 'Gölbaşı', 'puan': 383.0543, 'yuzdelik': 28.61, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.7750, 'lon': 32.7950},
 
     # Ankara Mesleki ve Teknik Anadolu Lisesi (Ulus / Kazımkarabekir)
     {'ad': 'Ankara Mesleki ve Teknik Anadolu Lisesi', 'ilce': 'Altındağ', 'puan': 382.7212, 'yuzdelik': 28.76, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9450, 'lon': 32.8600},
@@ -214,7 +204,7 @@ OKUL_VERITABANI = [
     {'ad': 'Polatlı Anadolu Lisesi', 'ilce': 'Polatlı', 'puan': 382.4921, 'yuzdelik': 28.87, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.5800, 'lon': 32.1319},
 
     # Kalaba Anadolu Lisesi (Keçiören / Kalaba)
-    {'ad': 'Kalaba Anadolu Lisesi', 'ilce': 'Keçiören', 'puan': 378.1064, 'yuzdelik': 30.82, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9869, 'lon': 32.8647},
+    {'ad': 'Kalaba Anadolu Lisesi', 'ilce': 'Keçiören', 'puan': 378.1064, 'yuzdelik': 30.82, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 40.0010, 'lon': 32.8630},
 
     # Kocatepe Mimar Kemal Anadolu Lisesi (Kızılay)
     {'ad': 'Kocatepe Mimar Kemal Anadolu Lisesi', 'ilce': 'Çankaya', 'puan': 376.5342, 'yuzdelik': 31.54, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9170, 'lon': 32.8590},
@@ -226,7 +216,7 @@ OKUL_VERITABANI = [
     {'ad': 'Halide Edip MTAL', 'ilce': 'Çankaya', 'puan': 373.1895, 'yuzdelik': 33.1, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9230, 'lon': 32.8250},
 
     # Şehit Sercan Öztürk Anadolu Lisesi (Yenimahalle)
-    {'ad': 'Şehit Sercan Öztürk Anadolu Lisesi', 'ilce': 'Yenimahalle', 'puan': 371.7458, 'yuzdelik': 33.78, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9950, 'lon': 32.7850},
+    {'ad': 'Şehit Sercan Öztürk Anadolu Lisesi', 'ilce': 'Yenimahalle', 'puan': 371.7458, 'yuzdelik': 33.78, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9775, 'lon': 32.7160},
 
     # Zübeyde Hanım MTAL (Altındağ / İskitler)
     {'ad': 'Zübeyde Hanım MTAL', 'ilce': 'Altındağ', 'puan': 371.0503, 'yuzdelik': 34.12, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9500, 'lon': 32.8480},
@@ -265,14 +255,13 @@ OKUL_VERITABANI = [
     {'ad': 'Altındağ Anadolu Lisesi', 'ilce': 'Altındağ', 'puan': 338.4556, 'yuzdelik': 50.84, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9416, 'lon': 32.8546},
 
     # Şehit Yasin Bahadır Yüce Anadolu Lisesi (Gölbaşı)
-    {'ad': 'Şehit Yasin Bahadır Yüce Anadolu Lisesi', 'ilce': 'Gölbaşı', 'puan': 336.8833, 'yuzdelik': 51.68, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.7859, 'lon': 32.8087},
+    {'ad': 'Şehit Yasin Bahadır Yüce Anadolu Lisesi', 'ilce': 'Gölbaşı', 'puan': 336.8833, 'yuzdelik': 51.68, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.7820, 'lon': 32.8050},
 
     # Akşemsettin Anadolu Lisesi (Sincan)
     {'ad': 'Akşemsettin Anadolu Lisesi', 'ilce': 'Sincan', 'puan': 333.1026, 'yuzdelik': 53.76, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9600, 'lon': 32.5800},
 
     # Layika Akbilek MTAL (Etimesgut)
-    {'ad': 'Layika Akbilek MTAL', 'ilce': 'Etimesgut', 'puan': 330.1558, 'yuzdelik': 55.4, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9495, 'lon': 32.6840},
-
+    {'ad': 'Layika Akbilek MTAL', 'ilce': 'Etimesgut', 'puan': 330.1558, 'yuzdelik': 55.4, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9635, 'lon': 32.5830},
     # Gevher Nesibe MTAL (Çankaya / Etlik Zübeyde Hanım Doğumevi Yanı)
     {'ad': 'Gevher Nesibe MTAL', 'ilce': 'Keçiören', 'puan': 327.915, 'yuzdelik': 56.63, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9650, 'lon': 32.8350},
 
@@ -319,7 +308,7 @@ OKUL_VERITABANI = [
     {'ad': 'İncirli Mesleki ve Teknik Anadolu Lisesi', 'ilce': 'Keçiören', 'puan': 286.4327, 'yuzdelik': 82.16, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9850, 'lon': 32.8450},
 
     # İskitler Mesleki ve Teknik Anadolu Lisesi (Altındağ / İskitler)
-    {'ad': 'İskitler Mesleki ve Teknik Anadolu Lisesi', 'ilce': 'Altındağ', 'puan': 286.4327, 'yuzdelik': 82.16, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9500, 'lon': 32.8480},
+    {'ad': 'İskitler Mesleki ve Teknik Anadolu Lisesi', 'ilce': 'Altındağ', 'puan': 286.4327, 'yuzdelik': 82.16, 'spor': True, 'yemek': True, 'konferans': True, 'bilg_lab': True, 'fen_lab': True, 'kantin': True, 'kutuphane': True, 'lat': 39.9530, 'lon': 32.8450},
 
     # Çankaya Borsa İstanbul Turizm MTAL (Balgat)
     {'ad': 'Çankaya Borsa İstanbul Turizm Mesleki ve Teknik Anadolu Lisesi', 'ilce': 'Çankaya', 'puan': 285.3, 'yuzdelik': 82.9, 'spor': False, 'yemek': False, 'konferans': True, 'bilg_lab': False, 'fen_lab': False, 'kantin': False, 'kutuphane': True, 'lat': 39.9020, 'lon': 32.8250},
