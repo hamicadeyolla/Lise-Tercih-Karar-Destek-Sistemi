@@ -69,6 +69,7 @@ Follow these steps to run the project locally:
 * **Bölüm:** Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE)
 * **Ders:** Nesne Tabanlı Programlama (BOZ213)
 
+---
 
 ## 📄 Lisans ve Telif Hakkı
 Bu projede Tüm Haklar Saklıdır.
